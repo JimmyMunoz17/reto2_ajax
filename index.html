@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio AJAX</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+    </head>
+    <body>
+        <h1>Reto 2</h1>
+        <div class="div" id="resultado">    
+        </div>
+        <div class="div">
+            <input type="number" id="id" placeholder="id">
+            <input type="text" id="name" placeholder="Nombre">
+            <input type="text" id="email" placeholder="Correo">
+            <input type="number" id="age" placeholder="Edad">
+        </div>
+        <button onclick="get_data()">Consultar</button>
+        <button onclick="post_data()">Crear</button>
+        <button onclick="put_data()">Actualizar</button>
+        <button onclick="get_data_id()">Buscar</button>
+    </body>
+</html>
